@@ -1,0 +1,311 @@
+<div class = "titleDiv">
+		
+	<div class="logoDiv"> </div>
+		
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	<div class = "hospitalTitle"> VIKRAM HOSPITAL PRIVATE LTD. </div>
+
+</div>
+
+<div id = "secondContainer">
+	<div class = "leftMenu">
+		<ul class = "menuItemsContainer scrollbar" id = "style-4">	
+			<li class = "menuItem">IPM</li>	
+			<li class = "menuItem">Masters</li>	
+			<li class = "menuItem">IP Billing</li>	
+			<li class = "menuItem">FTDM</li>	
+			<li class = "menuItem">System Admin</li>	
+			<li class = "menuItem">Consulting</li>	
+			<li class = "menuItem selected">MainStore Inventory</li>	
+				<ul class = "nostyle">
+					<li class = "menuItem selected">Canteen	</li>
+					<ul class = "nostyle">
+						<li class = "menuItem selected">Img Dignostics</li>	
+						<li class = "menuItem">Dignostics</li>
+						<li class = "menuItem">Surgery</li>
+						<li class = "menuItem">Tablets</li>
+					</ul>
+					<li class = "menuItem">Purchase</li>
+				</ul>
+			<li class = "menuItem">Canteen</li>	
+			<li class = "menuItem">Purchase</li>	
+			<li class = "menuItem">Substore Inventory</li>	
+			<li class = "menuItem">Pharmacy</li>	
+			<li class = "menuItem">Canteen</li>	
+			<li class = "menuItem">Substore</li>	
+			<li class = "menuItem">Inventory</li>
+			<li class = "menuItem">Lab</li>
+			<li class = "menuItem">Pharmacy</li>
+			<li class = "menuItem">Logs</li>
+			<li class = "menuItem">Reports</li>
+		</ul>
+	</div>
+	<div class= "rightPage">
+	
+		
+			<div class="orderTitle">Min Purchase Order </div>
+			<div class="cardWrapper">	
+				<div class="cardDiv">
+					<div class="innerWrap">
+						<label> Divison : </label>
+						<select>
+						  <option value="OPD">OPD</option>
+						  <option value="Lab">Lab</option>
+						  <option value="Operation">Operation</option>
+						  <option value="Special">Special</option>
+						</select>
+					</div>	
+					<div class="innerWrap">
+					<label> Trx Type : </label><select>
+					  <option value="Purchase">Purchase</option>
+					  <option value="Dignostics">Dignostics</option>
+					  <option value="Logs">Logs</option>
+					  <option value="Reports">Reports</option>
+					</select>
+					</div>
+				</div>
+				<div class="cardDiv">
+					<div class="innerWrap" > 
+						<label>Item : </label><select>
+						  <option value="Reports">Reports</option>
+						  <option value="Sample">Sample</option>
+						  <option value="Files">Files</option>
+						  <option value="Blood">Blood</option>
+						</select>
+					</div>
+					<div class="innerWrap">
+						<label> Supplier Name :  </label><select>
+						  <option value="Cypla">Cypla</option>
+						  <option value="Medicin">Medicin</option>
+						  <option value="AllScript">AllScript</option>
+						  <option value="Pfizer">Pfizer</option>
+						</select>
+					</div>
+				</div>	
+				<div class="cardDiv special">
+					<div class="innerWrap">
+						<label> PO Date from : </label><input type="date" name="pdDate" min="2000-01-02">
+					</div>	
+					<div class="innerWrap">				
+						<label>PO Date To: </label><input type="date" name="pdDate" min="2000-01-02">
+					</div>	
+					<div class="innerWrap">
+						<label> PO Number : </label><input type="number" name="quantity">
+					</div>	
+				</div>	
+				
+				<div class="cardDiv">
+					<div class="radioHolder">
+					  <label><span class="radio"><input type="radio" name="foo" value="1" checked><span class="radio-value" aria-hidden="true"></span></span>Hold</label>
+					</div>
+					<div class="radioHolder">
+					  <label><span class="radio"><input type="radio" name="foo" value="2"><span class="radio-value" aria-hidden="true"></span></span>Approved</label>
+					</div>
+					<div class="radioHolder">
+					  <label><span class="radio"><input type="radio" name="foo" value="3"><span class="radio-value" aria-hidden="true"></span></span>Cancelled</label>
+					</div>
+					<div class="radioHolder">
+					  <label><span class="radio"><input type="radio" name="foo" value="3"><span class="radio-value" aria-hidden="true"></span></span>Complete</label>
+					</div >	
+					<div class="radioHolder">
+					  <label><span class="radio"><input type="radio" name="foo" value="3"><span class="radio-value" aria-hidden="true"></span></span>Closed</label>
+					</div>	
+					<div class="radioHolder">
+					  <label><span class="radio"><input type="radio" name="foo" value="3"><span class="radio-value" aria-hidden="true"></span></span>All</label>
+					</div>
+				</div>	
+				<div class="cardDiv">
+					<button> Submit </button>
+					<button> Cancel </button>
+				</div>	
+				
+			</div>
+			<div class = "tableWrapper">
+			
+				 <div id="style-4" class="scrollbar wrapper">
+  
+				  <table id="keywords" cellspacing="0" cellpadding="0">
+					<thead>
+					  <tr>
+						<th><span class="lalign">PO NO</span></th>
+						<th><span>PO mask</span></th>
+						<th><span>Date</span></th>
+						<th><span>Supplier</span></th>
+						<th><span>Gross</span></th>
+						<th><span>Disc</span></th>
+						<th><span>Sup</span></th>
+						<th><span>Serv Tax</span></th>
+						<th><span>Tax</span></th>
+						<th><span>Frt Insu</span></th>
+						<th><span>LocalTax</span></th>
+						<th><span>Other</span></th>
+						<th><span>Status</span></th>
+						<th><span>Validity</span></th>
+						<th><span>Close Reason</span></th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td class="lalign">Silly tshirts</td>
+						<td>6,000</td>
+						<td>110</td>
+						<td>1.8%</td>
+						<td>22.2</td>
+						<td>6,000</td>
+						<td>110</td>
+						<td>1.8%</td>
+						<td>22.2</td>
+						<td>6,000</td>
+						<td>110</td>
+						<td>1.8%</td>
+						<td>22.2</td>
+						<td>6,000</td>
+						<td>110</td>
+					
+					  </tr>
+					  <tr>
+						<td class="lalign">Desktop workspace photos</td>
+						<td>2,200</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					  <tr>
+						<td class="lalign">Arrested development quotes</td>
+						<td>13,500</td>
+						<td>900</td>
+						<td>6.7%</td>
+						<td>12.0</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					    <tr>
+						<td class="lalign">Development quotes</td>
+						<td>13,500</td>
+						<td>900</td>
+						<td>6.7%</td>
+						<td>12.0</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					  <tr>
+						<td class="lalign">Popular web series</td>
+						<td>8,700</td>
+						<td>350</td>
+						<td>4%</td>
+						<td>7.0</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					  <tr>
+						<td class="lalign">2013 webapps</td>
+						<td>9,900</td>
+						<td>460</td>
+						<td>4.6%</td>
+						<td>11.5</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					  <tr>
+						<td class="lalign">Ring bananaphone</td>
+						<td>10,500</td>
+						<td>748</td>
+						<td>7.1%</td>
+						<td>17.3</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					  <tr>
+						<td class="lalign">arrested development quotes</td>
+						<td>13,500</td>
+						<td>900</td>
+						<td>6.7%</td>
+						<td>12.0</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+						<td>22%</td>
+						<td>8.9</td>
+						<td>500</td>
+					  </tr>
+					</tbody>
+				  </table>
+				 </div> 
+
+			
+			</div>
+			
+			
+			
+			
+			</div>
+			<div></div>
+		
+	
+	
+	</div>
+
+</div>
+
+<footer>Powered by Impulse Technologies</footer>
